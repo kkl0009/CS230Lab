@@ -1,0 +1,39 @@
+body {
+    color: white;
+    text-align: center;
+}
+p{
+    font-family: 'Times New Roman';
+}
+
+.about{
+    background: lightblue;
+    padding: 8px;
+    text-align: center;
+}
+img{
+    text-align: center;
+    height: 280px;
+    width: 315px;
+}
+.column{
+    float: left;
+    margin-right: 20px;
+    margin: 10px;
+    width: 18%;
+    color: blue;
+}
+.card {
+    box-shadow: -4px 4px 8px 0 gray;   
+    padding: 0 16px 0 16px;
+    text-align: center;
+}
+
+.quote {
+    color: red;
+}
+
+.link {
+    color: green;
+    text-align: center;
+}
