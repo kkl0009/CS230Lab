@@ -14,13 +14,13 @@ require 'includes/header.php'
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block mx-auto" style="height: 300px;" src="images/clones1.jpg" alt="First slide">
+                    <img class="d-block mx-auto" style="height: 300px;" src="Images/clones1.jpg" alt="First slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block mx-auto" style="height: 300px;" src="images/clones2.jpg" alt="Second slide">
+                    <img class="d-block mx-auto" style="height: 300px;" src="Images/clones2.jpg" alt="Second slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block mx-auto" style="height: 300px;" src="images/clones3.jpg" alt="Third slide">
+                    <img class="d-block mx-auto" style="height: 300px;" src="Images/clones3.jpg" alt="Third slide">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">

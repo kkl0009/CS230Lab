@@ -14,7 +14,7 @@ require 'includes/header.php'
         <div class="row">
             <div class="column">
                 <div class="card">
-                    <img src="images/palpatine.png">
+                    <img src="Images/palpatine.png">
                     <div class="container">
                         <h2>Chancellor Palpatine</h2>
                         <div class="quote">
@@ -25,7 +25,7 @@ require 'includes/header.php'
             </div>
             <div class="column">
                 <div class="card">
-                    <img src="images/obi.png">
+                    <img src="Images/obi.png">
                     <div class="container">
                         <h2>Jedi Master Obi-Wan Kenobi</h2>
                         <div class="quote">
@@ -36,7 +36,7 @@ require 'includes/header.php'
             </div>
             <div class="column">
                 <div class="card">
-                    <img src="images/anakin.webp">
+                    <img src="Images/anakin.webp">
                     <div class="container">
                         <h2>Jedi Knight Anakin Skywalker</h2>
                         <div class="quote">
@@ -47,7 +47,7 @@ require 'includes/header.php'
             </div>
             <div class="column">
                 <div class="card">
-                    <img src="images/youngling.png">
+                    <img src="Images/youngling.png">
                     <div class="container">
                         <h2>That One Random Youngling</h2>
                         <div class="quote">
@@ -58,7 +58,7 @@ require 'includes/header.php'
             </div>
             <div class="column">
                 <div class="card">
-                    <img src="images/binks.webp">
+                    <img src="Images/binks.webp">
                     <div class="container">
                         <h2>Naboo Senator Jar Jar Binks</h2>
                         <div class="quote">
