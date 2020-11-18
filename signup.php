@@ -3,6 +3,7 @@ require "includes/header.php"
 ?>
 
 <main>
+<link rel="stylesheet" href="css/login.css">
     <div class="bg-cover">
         <div class="h-100 container center-me">
             <div class="my-auto">
