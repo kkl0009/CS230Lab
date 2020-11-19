@@ -14,13 +14,13 @@ require 'includes/header.php'
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block mx-auto" style="height: 300px;" src="pictures/clones1.jpg" alt="First slide">
+                    <img class="d-block mx-auto" style="height: 300px;" src="Images/tacos.jpg" alt="First slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block mx-auto" style="height: 300px;" src="pictures/clones2.jpg" alt="Second slide">
+                    <img class="d-block mx-auto" style="height: 300px;" src="Images/dumplings.jpg" alt="Second slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block mx-auto" style="height: 300px;" src="pictures/clones3.jpg" alt="Third slide">
+                    <img class="d-block mx-auto" style="height: 300px;" src="Images/cookies.jpg" alt="Third slide">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
@@ -37,7 +37,7 @@ require 'includes/header.php'
         <div class="h-40 center-me">
             <div class="my-auto">
                 <form class="form-signin" action="includes/login-helper.php" method="post" style="background: white;">
-                    <img style="height: 70px;" src="pictures/republic.svg">
+                    <img style="height: 70px;" src="Images/plate.svg">
                     <h1 class="h3 mb-3 font-weight-normal">Login</h1>
                     <label for="inputEmail" class="sr-only">Username or Email Address</label>
                     <input type="text" id="inputEmail" name="uname" class="form-control" placeholder="Username/ Email" required
