@@ -2,7 +2,7 @@
 
 $servename = "localhost";
 $DBuname = "root";
-$DBPass = "r00tP@ss!230";
+$DBPass = "mysql123";
 $DBname = "cs230";
 
 $conn = mysqli_connect($servename, $DBuname, $DBPass, $DBname);
@@ -18,8 +18,8 @@ $sql = "SELECT * FROM reviews WHERE item_id='$item_id' LIMIT 4";
 
 $result = mysqli_query($conn, $sql);
 
-if (mysqli_num_rows($result) > 0) {
-    while($row = mysqli_fetch_assoc($result)) {
+if(mysqli_num_rows($result) > 0){
+    while($row = mysqli_fetch_assoc($result)){
         $uname = $row['uname'];
         $prosql = "SELECT picpath from profile WHERE uname='$uname';";
         $res = mysqli_query($conn, $prosql);
@@ -40,6 +40,6 @@ if (mysqli_num_rows($result) > 0) {
         ';
     }
 }
-else {
+else{
     echo '<h5 style="text-align: center">No reviews, yet! Be the first!</h5>';
 }

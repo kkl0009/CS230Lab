@@ -1,377 +1,71 @@
 <?php
 require 'includes/header.php'
 ?>
-
 <main>
-    <link rel="stylesheet" href="css/Home.css">
-    <div class="bg-cover center-me">
-        <div class="about-section">
-            <div class="row">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"
-                     style="margin-top: 50px; margin-left: 40px;">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-200" src="images/deal1.png" alt="First slide">
-                            <div class="carousel-caption d-none d-md-block">
-                            </div>
-
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-200" src="images/deal2.jpg" alt="Second slide">
-                            <div class="carousel-caption d-none d-md-block">
-                            </div>
-
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-200" src="images/deal3.png" alt="Third slide">
-                            <div class="carousel-caption d-none d-md-block">
-                            </div>
-
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-            </div>
+<link rel="stylesheet" href="css/about.css">
+        <div class="about">
+        <h1>The Galactic Republic</h1>
+        <h2>Based in Coruscant</h2>
+        <p>The Galactic Republic, headed by Supreme Chancellor Palpatine, provides the best security and stability to the known galaxy. The Galactic Republic includes the Senate, consisting entirely of Chancellor Palpatine, and is closely tied to the Jedi Council, which has such legendary memes as Mace Windu, Anakin Skywalker, and of course, Obi-Wan Kenobi</p>
         </div>
-
-        <h2 style="text-align:center; font-size: 30px;"> Menu</h2>
+        <div class="link">
+            <a href="https://github.com/kkl0009/CS230Lab">https://github.com/kkl0009/CS230Lab</a>
+        </div>
         <div class="row">
             <div class="column">
                 <div class="card">
-                    <img src="images/dumplings.jpg" alt="??" style="width: 150px; height: 150px">
+                    <img src="pictures/palpatine.png">
                     <div class="container">
-                        <h2>??</h2>
-                        <p>
-                            <button type="button" class="button" data-toggle="modal" data-target="#modalCart">Order
-                            </button>
-                        </p>
-
-                        <div class="modal fade bd-example-modal-lg" id="modalCart" tabindex="-1" role="dialog"
-                             aria-labelledby="exampleModalLabel"
-                             aria-hidden="true">
-                            <div class="modal-dialog modal-lg" role="document">
-                                <div class="modal-content">
-                                    <!--Header-->
-                                    <div class="modal-header">
-                                        <h4 class="modal-title" id="myModalLabel">Available Restaurants</h4>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">×</span>
-                                        </button>
-                                    </div>
-                                    <!--Body-->
-                                    <div class="modal-body">
-                                        <table class="table table-hover">
-                                            <thead>
-                                            <tr>
-                                                <th>Restaurants</th>
-                                                <th>Logo</th>
-                                                <th>Select</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr class="restaurant">
-                                                <td>Restaurant 1</td>
-                                                <td><img class="resimg" src="images/img-placeholder.webp"></img></td>
-                                                <td><a href="https://www.subway.com/en-us" class="button"
-                                                       style="margin-top: 75px;">Select</a></td>
-                                            </tr>
-                                            <tr class="restaurant">
-                                                <td>Restaurant 2</td>
-                                                <td><img class="resimg" src="images/img-placeholder.webp"></img></td>
-                                                <td><a href="https://www.subway.com/en-us" class="button"
-                                                       style="margin-top: 75px;">Select</a></td>
-                                            </tr>
-                                            <tr class="restaurant">
-                                                <td>Restaurant 3</td>
-                                                <td><img class="resimg" src="images/img-placeholder.webp"></img></td>
-                                                <td><a href="https://www.subway.com/en-us" class="button"
-                                                       style="margin-top: 75px;">Select</a></td>
-                                            </tr>
-                                            <tr class="restaurant">
-                                                <td>Restaurant 4</td>
-                                                <td><img class="resimg" src="images/img-placeholder.webp"></img></td>
-                                                <td><a href="https://www.subway.com/en-us" class="button"
-                                                       style="margin-top: 75px;">Select</a></td>
-                                            </tr>
-                                            <tr class="restaurant">
-                                                <td>Restaurant 5</td>
-                                                <td><img class="resimg" src="images/img-placeholder.webp"></img></td>
-                                                <td><a href="https://www.subway.com/en-us" class="button"
-                                                       style="margin-top: 75px;">Select</a>
-                                                </td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <!--Footer-->
-                                    <div class="modal-footer">
-                                        <button type="button" class="button" data-dismiss="modal">
-                                            Close
-                                        </button>
-                                        <button class="button">Checkout</button>
-                                    </div>
-                                </div>
-                            </div>
+                        <h2>Chancellor Palpatine</h2>
+                        <div class="quote">
+                            <p>"I am the Senate"</p>
                         </div>
-                    </div>
+                    </div>              
                 </div>
             </div>
-
             <div class="column">
                 <div class="card">
-                    <img src="images/pizza.jpg" alt="Pizza" style="width: 150px; height: 150px">
+                    <img src="pictures/obi.png">
                     <div class="container">
-                        <h2>Pizza</h2>
-                        <p>
-                            <button type="button" class="button" data-toggle="modal" data-target="#modalCart">Order
-                            </button>
-                        </p>
-
-                        <div class="modal fade bd-example-modal-lg" id="modalCart" tabindex="-1" role="dialog"
-                             aria-labelledby="exampleModalLabel"
-                             aria-hidden="true">
-                            <div class="modal-dialog modal-lg" role="document">
-                                <div class="modal-content">
-                                    <!--Header-->
-                                    <div class="modal-header">
-                                        <h4 class="modal-title" id="myModalLabel">Available Restaurants</h4>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">×</span>
-                                        </button>
-                                    </div>
-                                    <!--Body-->
-                                    <div class="modal-body">
-                                        <table class="table table-hover">
-                                            <thead>
-                                            <tr>
-                                                <th>Restaurants</th>
-                                                <th>Logo</th>
-                                                <th>Select</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr class="restaurant">
-                                                <td>Restaurant 1</td>
-                                                <td><img class="resimg" src="images/img-placeholder.webp"></img></td>
-                                                <td><a href="https://www.subway.com/en-us" class="button"
-                                                       style="margin-top: 75px;">Select</a></td>
-                                            </tr>
-                                            <tr class="restaurant">
-                                                <td>Restaurant 2</td>
-                                                <td><img class="resimg" src="images/img-placeholder.webp"></img></td>
-                                                <td><a href="https://www.subway.com/en-us" class="button"
-                                                       style="margin-top: 75px;">Select</a></td>
-                                            </tr>
-                                            <tr class="restaurant">
-                                                <td>Restaurant 3</td>
-                                                <td><img class="resimg" src="images/img-placeholder.webp"></img></td>
-                                                <td><a href="https://www.subway.com/en-us" class="button"
-                                                       style="margin-top: 75px;">Select</a></td>
-                                            </tr>
-                                            <tr class="restaurant">
-                                                <td>Restaurant 4</td>
-                                                <td><img class="resimg" src="images/img-placeholder.webp"></img></td>
-                                                <td><a href="https://www.subway.com/en-us" class="button"
-                                                       style="margin-top: 75px;">Select</a></td>
-                                            </tr>
-                                            <tr class="restaurant">
-                                                <td>Restaurant 5</td>
-                                                <td><img class="resimg" src="images/img-placeholder.webp"></img></td>
-                                                <td><a href="https://www.subway.com/en-us" class="button"
-                                                       style="margin-top: 75px;">Select</a>
-                                                </td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <!--Footer-->
-                                    <div class="modal-footer">
-                                        <button type="button" class="button" data-dismiss="modal">
-                                            Close
-                                        </button>
-                                        <button class="button">Checkout</button>
-                                    </div>
-                                </div>
-                            </div>
+                        <h2>Jedi Master Obi-Wan Kenobi</h2>
+                        <div class="quote">
+                            <p>"Hello there!"</p>
                         </div>
-                    </div>
+                    </div>              
                 </div>
             </div>
-
             <div class="column">
                 <div class="card">
-                    <img src="images/subs.jfif" alt="Subs" style="width: 150px; height: 150px">
+                    <img src="pictures/anakin.webp">
                     <div class="container">
-                        <h2>Subs</h2>
-                        <!-- Button trigger modal-->
-                        <p>
-                            <button type="button" class="button" data-toggle="modal" data-target="#modalCart">Order
-                            </button>
-                        </p>
-
-                        <!-- Modal: modalCart -->
-                        <div class="modal fade bd-example-modal-lg" id="modalCart" tabindex="-1" role="dialog"
-                             aria-labelledby="exampleModalLabel"
-                             aria-hidden="true">
-                            <div class="modal-dialog modal-lg" role="document">
-                                <div class="modal-content">
-                                    <!--Header-->
-                                    <div class="modal-header">
-                                        <h4 class="modal-title" id="myModalLabel">Available Restaurants</h4>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">×</span>
-                                        </button>
-                                    </div>
-                                    <!--Body-->
-                                    <div class="modal-body">
-                                        <table class="table table-hover">
-                                            <thead>
-                                            <tr>
-                                                <th>Restaurants</th>
-                                                <th>Logo</th>
-                                                <th>Select</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr class="restaurant">
-                                                <td>Restaurant 1</td>
-                                                <td><img class="resimg" src="images/img-placeholder.webp"></img></td>
-                                                <td><a href="https://www.subway.com/en-us" class="button"
-                                                       style="margin-top: 75px;">Select</a></td>
-                                            </tr>
-                                            <tr class="restaurant">
-                                                <td>Restaurant 2</td>
-                                                <td><img class="resimg" src="images/img-placeholder.webp"></img></td>
-                                                <td><a href="https://www.subway.com/en-us" class="button"
-                                                       style="margin-top: 75px;">Select</a></td>
-                                            </tr>
-                                            <tr class="restaurant">
-                                                <td>Restaurant 3</td>
-                                                <td><img class="resimg" src="images/img-placeholder.webp"></img></td>
-                                                <td><a href="https://www.subway.com/en-us" class="button"
-                                                       style="margin-top: 75px;">Select</a></td>
-                                            </tr>
-                                            <tr class="restaurant">
-                                                <td>Restaurant 4</td>
-                                                <td><img class="resimg" src="images/img-placeholder.webp"></img></td>
-                                                <td><a href="https://www.subway.com/en-us" class="button"
-                                                       style="margin-top: 75px;">Select</a></td>
-                                            </tr>
-                                            <tr class="restaurant">
-                                                <td>Restaurant 5</td>
-                                                <td><img class="resimg" src="images/img-placeholder.webp"></img></td>
-                                                <td><a href="https://www.subway.com/en-us" class="button"
-                                                       style="margin-top: 75px;">Select</a>
-                                                </td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <!--Footer-->
-                                    <div class="modal-footer">
-                                        <button type="button" class="button" data-dismiss="modal">
-                                            Close
-                                        </button>
-                                        <button class="button">Checkout</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                        <h2>Jedi Knight Anakin Skywalker</h2>
+                        <div class="quote">
+                            <p>"This is where the fun begins!"</p>
+                        </div>                   
+                    </div>              
                 </div>
             </div>
-            <!-- Modal: modalCart -->
             <div class="column">
                 <div class="card">
-                    <img src="images/meal.jpg" alt="meals" style="width: 150px; height: 150px">
+                    <img src="pictures/youngling.png">
                     <div class="container">
-                        <h2>Meals</h2>
-                        <p>
-                            <button type="button" class="button" data-toggle="modal" data-target="#modalCart">Order
-                            </button>
-                        </p>
-                        <div class="modal fade bd-example-modal-lg" id="modalCart" tabindex="-1" role="dialog"
-                             aria-labelledby="exampleModalLabel"
-                             aria-hidden="true">
-                            <div class="modal-dialog modal-lg" role="document">
-                                <div class="modal-content">
-                                    <!--Header-->
-                                    <div class="modal-header">
-                                        <h4 class="modal-title" id="myModalLabel">Available Restaurants</h4>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">×</span>
-                                        </button>
-                                    </div>
-                                    <!--Body-->
-                                    <div class="modal-body">
-                                        <table class="table table-hover">
-                                            <thead>
-                                            <tr>
-                                                <th>Restaurants</th>
-                                                <th>Logo</th>
-                                                <th>Select</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr class="restaurant">
-                                                <td>Restaurant 1</td>
-                                                <td><img class="resimg" src="images/img-placeholder.webp"></img></td>
-                                                <td><a href="https://www.subway.com/en-us" class="button"
-                                                       style="margin-top: 75px;">Select</a></td>
-                                            </tr>
-                                            <tr class="restaurant">
-                                                <td>Restaurant 2</td>
-                                                <td><img class="resimg" src="images/img-placeholder.webp"></img></td>
-                                                <td><a href="https://www.subway.com/en-us" class="button"
-                                                       style="margin-top: 75px;">Select</a></td>
-                                            </tr>
-                                            <tr class="restaurant">
-                                                <td>Restaurant 3</td>
-                                                <td><img class="resimg" src="images/img-placeholder.webp"></img></td>
-                                                <td><a href="https://www.subway.com/en-us" class="button"
-                                                       style="margin-top: 75px;">Select</a></td>
-                                            </tr>
-                                            <tr class="restaurant">
-                                                <td>Restaurant 4</td>
-                                                <td><img class="resimg" src="images/img-placeholder.webp"></img></td>
-                                                <td><a href="https://www.subway.com/en-us" class="button"
-                                                       style="margin-top: 75px;">Select</a></td>
-                                            </tr>
-                                            <tr class="restaurant">
-                                                <td>Restaurant 5</td>
-                                                <td><img class="resimg" src="images/img-placeholder.webp"></img></td>
-                                                <td><a href="https://www.subway.com/en-us" class="button"
-                                                       style="margin-top: 75px;">Select</a>
-                                                </td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <!--Footer-->
-                                    <div class="modal-footer">
-                                        <button type="button" class="button" data-dismiss="modal">
-                                            Close
-                                        </button>
-                                        <button class="button">Checkout</button>
-                                    </div>
-                                </div>
-                            </div>
+                        <h2>That One Random Youngling</h2>
+                        <div class="quote">
+                            <p>"WhAt ArE wE gOiNg To dO?"</p>
                         </div>
-                    </div>
+                    </div>              
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <img src="pictures/binks.webp">
+                    <div class="container">
+                        <h2>Naboo Senator Jar Jar Binks</h2>
+                        <div class="quote">
+                            <p>Totally not a Sith ;)</p>
+                        </div>
+                    </div>              
                 </div>
             </div>
         </div>
-    </div>
 </main>
